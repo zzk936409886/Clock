@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0308E0DA1C046A4000684722 /* zkview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0308E0D91C046A4000684722 /* zkview.m */; };
 		0352224A1C04142600D9FD79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 035222491C04142600D9FD79 /* main.m */; };
 		0352224D1C04142600D9FD79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352224C1C04142600D9FD79 /* AppDelegate.m */; };
 		035222501C04142600D9FD79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352224F1C04142600D9FD79 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0308E0D81C046A4000684722 /* zkview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zkview.h; sourceTree = "<group>"; };
+		0308E0D91C046A4000684722 /* zkview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zkview.m; sourceTree = "<group>"; };
 		035222451C04142600D9FD79 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		035222491C04142600D9FD79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0352224B1C04142600D9FD79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				0352224C1C04142600D9FD79 /* AppDelegate.m */,
 				0352224E1C04142600D9FD79 /* ViewController.h */,
 				0352224F1C04142600D9FD79 /* ViewController.m */,
+				0308E0D81C046A4000684722 /* zkview.h */,
+				0308E0D91C046A4000684722 /* zkview.m */,
 				035222511C04142600D9FD79 /* Main.storyboard */,
 				035222541C04142600D9FD79 /* Assets.xcassets */,
 				035222561C04142600D9FD79 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					035222441C04142600D9FD79 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = D4FDD8677Z;
 					};
 					0352225D1C04142600D9FD79 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -271,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				035222501C04142600D9FD79 /* ViewController.m in Sources */,
+				0308E0DA1C046A4000684722 /* zkview.m in Sources */,
 				0352224D1C04142600D9FD79 /* AppDelegate.m in Sources */,
 				0352224A1C04142600D9FD79 /* main.m in Sources */,
 			);
@@ -413,6 +420,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Clock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhoukuai.com.Clock;
@@ -424,6 +433,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Clock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhoukuai.com.Clock;
@@ -498,6 +509,7 @@
 				035222741C04142600D9FD79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		035222751C04142600D9FD79 /* Build configuration list for PBXNativeTarget "ClockTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +518,7 @@
 				035222771C04142600D9FD79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		035222781C04142600D9FD79 /* Build configuration list for PBXNativeTarget "ClockUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +527,7 @@
 				0352227A1C04142600D9FD79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
